@@ -18,6 +18,14 @@ body {
   width: 40rem;
   height: 40rem;
   border-radius: 100%;
+  border: 1.4rem solid #000000;
+
+.marks {
+  position: absolute;
+  border-radius: 100%;
+  border-image: linear-gradient(red, blue) 27;}
+
+
 }
 
 .minute,
