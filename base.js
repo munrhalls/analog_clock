@@ -1,7 +1,7 @@
-var d = new Date(); // for now
-d.getHours(); //
-console.log(d)
-d.getMinutes(); //
-console.log(d)  
-d.getSeconds(); //
-console.log(d) 
+setInterval(function(){
+  var time = new Date(); 
+  var seconds = time.getSeconds();
+  var minutes = time.getMinutes(); 
+  var hours = time.getHours(); 
+  console.log(seconds)
+}, 1000);
