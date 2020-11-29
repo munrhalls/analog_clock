@@ -9,26 +9,24 @@ body {
 .clock {
   border-radius: 100%;
   background: #ffffff;
-  font-family: "Montserrat";
-  border: 5px solid white;
-  box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
+  border: 12px solid #000000;
 }
 
 .wrap {
   overflow: hidden;
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 40rem;
+  height: 40rem;
   border-radius: 100%;
 }
 
 .minute,
 .hour {
   position: absolute;
-  height: 100px;
-  width: 6px;
+  height: 14rem;
+  width: 1.5rem;
   margin: auto;
-  top: -27%;
+  top:  -14rem;
   left: 0;
   bottom: 0;
   right: 0;
@@ -41,9 +39,9 @@ body {
 
 .minute {
   position: absolute;
-  height: 130px;
-  width: 4px;
-  top: -38%;
+  height: 18rem;
+  width: 0.25rem;
+  top: -18rem;
   left: 0;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
   transform: rotate(90deg);
@@ -51,15 +49,15 @@ body {
 
 .second {
   position: absolute;
-  height: 90px;
-  width: 2px;
+  height: 18rem;
+  width: 1px;
   margin: auto;
-  top: -26%;
+  top: -18rem;
   left: 0;
   bottom: 0;
   right: 0;
   border-radius: 4px;
-  background: #FF4B3E;
+  background: #000000;
   transform-origin: bottom center;
   transform: rotate(180deg);
   z-index: 1;
@@ -71,11 +69,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 12px;
-  height: 12px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 100px;
-  background: white;
-  border: 2px solid #1b1b1b;
+  background: #000000;
+  border: 3px solid #000000;
   border-radius: 100px;
   margin: auto;
   z-index: 1;
